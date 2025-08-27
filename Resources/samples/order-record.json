@@ -1,0 +1,1473 @@
+{
+  "_id": {
+    "$oid": "68af5d1ddc34245aec46a8fa"
+  },
+  "storeId": {
+    "$oid": "5feceb66ffc86f38d952786c"
+  },
+  "uid": "1v9aTG6rCeZwpgfeSMvffhkDnvF3",
+  "displayId": "119-4",
+  "pickupType": "Dine-in",
+  "targetPreparationTime": 900,
+  "status": "DELIVERED",
+  "statusReason": "TRUSTED_SOURCE",
+  "statusHistory": [
+    {
+      "status": "CREATED",
+      "reason": "TRUSTED_SOURCE",
+      "timestamp": {
+        "$date": "2025-08-27T19:31:41.543Z"
+      }
+    },
+    {
+      "status": "PENDING",
+      "reason": "WAITING_VENDOR_ACCEPTANCE",
+      "timestamp": {
+        "$date": "2025-08-27T19:31:41.543Z"
+      }
+    },
+    {
+      "status": "PREPARING",
+      "reason": "TRUSTED_SOURCE",
+      "timestamp": {
+        "$date": "2025-08-27T19:32:30.925Z"
+      }
+    },
+    {
+      "status": "READY",
+      "reason": "TRUSTED_SOURCE",
+      "timestamp": {
+        "$date": "2025-08-27T19:40:38.891Z"
+      }
+    },
+    {
+      "status": "DELIVERING",
+      "reason": "TRUSTED_SOURCE",
+      "timestamp": {
+        "$date": "2025-08-27T19:41:32.659Z"
+      }
+    }
+  ],
+  "tableNumber": "13",
+  "phoneNumber": "+213500000000",
+  "cart": {
+    "items": [
+      {
+        "name": "Selecto",
+        "selectedQuantity": 1,
+        "itemId": "d80eae6e96d148b3b2abbbc6",
+        "quantityUnit": "pcs",
+        "internalName": "HAM Selecto 1L",
+        "internalAbbr": "HAM-SEL-1",
+        "priceInfo": {
+          "price": 150
+        },
+        "modifiers": [],
+        "category": "Soft Drinks",
+        "menuType": "Ordinary",
+        "workflowType": "BAR",
+        "extras": [],
+        "analytics": {
+          "kind": "soft-drinks",
+          "categories": []
+        }
+      },
+      {
+        "name": "Caesar Salad",
+        "selectedQuantity": 1,
+        "itemId": "e29c9c180c6279b0b02abd6a",
+        "quantityUnit": "pcs",
+        "internalName": "Salade César",
+        "internalAbbr": "SAL-CES",
+        "priceInfo": {
+          "price": 350
+        },
+        "modifiers": [],
+        "category": "Salades",
+        "menuType": "Ordinary",
+        "workflowType": "BAR",
+        "extras": [],
+        "analytics": {
+          "kind": "salades",
+          "categories": [
+            "salades-salads"
+          ]
+        }
+      },
+      {
+        "name": "Pizza Pepperoni",
+        "selectedQuantity": 1,
+        "itemId": "2c624232cdd221771294dfbb",
+        "quantityUnit": "pcs",
+        "internalName": "Pizza Pepperoni",
+        "internalAbbr": "PZ-PEP",
+        "priceInfo": {
+          "price": 600
+        },
+        "modifiers": [
+          {
+            "modifierId": "6b51d431df5d7f141cbececc",
+            "featuredDisplay": "SIZE",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 200,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 0,
+                  "quantityName": ""
+                },
+                "optionId": "86e50149658661312a9e0b35",
+                "selectedQuantity": 1,
+                "itemName": "Pepperoni 30'"
+              }
+            ],
+            "name": "SZ Pepperoni"
+          },
+          {
+            "modifierId": "d4735e3a265e16eee03f5971",
+            "featuredDisplay": "CORNICIONE",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "4b227777d4dd1fc61c6f884f",
+                "selectedQuantity": 1,
+                "itemName": "Bordure Traditionnelle"
+              }
+            ],
+            "name": "Bordure"
+          },
+          {
+            "modifierId": "5feceb66ffc86f38d952786c",
+            "featuredDisplay": "SAUCE",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "5feceb66ffc86f38d952786c",
+                "selectedQuantity": 1,
+                "itemName": "Sauce Tomate"
+              }
+            ],
+            "name": "Sauce tomate/blanche"
+          },
+          {
+            "modifierId": "59e19706d51d39f66711c265",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 360,
+                  "adjustments": [
+                    {
+                      "modifierId": "6b51d431df5d7f141cbececc",
+                      "optionId": "86e50149658661312a9e0b35",
+                      "adjustmentType": "add",
+                      "price": 0
+                    },
+                    {
+                      "modifierId": "6b51d431df5d7f141cbececc",
+                      "optionId": "9f14025af0065b30e47e23eb",
+                      "adjustmentType": "add",
+                      "price": 0
+                    }
+                  ]
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "0a2d643bfd24a028cd236e76",
+                "selectedQuantity": 1,
+                "itemName": "Mozzarella[225]"
+              },
+              {
+                "priceInfo": {
+                  "price": 200,
+                  "adjustments": [
+                    {
+                      "modifierId": "6b51d431df5d7f141cbececc",
+                      "optionId": "86e50149658661312a9e0b35",
+                      "adjustmentType": "add",
+                      "price": 80
+                    },
+                    {
+                      "modifierId": "6b51d431df5d7f141cbececc",
+                      "optionId": "9f14025af0065b30e47e23eb",
+                      "adjustmentType": "add",
+                      "price": 150
+                    }
+                  ]
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "9a049b03f6fc40bfcf2f1363",
+                "selectedQuantity": 1,
+                "itemName": "pepperoni[14]"
+              }
+            ],
+            "name": "TOP Pepperoni"
+          },
+          {
+            "modifierId": "4e07408562bedb8b60ce05c1",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "e7f6c011776e8db7cd330b54",
+                "selectedQuantity": 1,
+                "itemName": "Pâte S"
+              },
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "7902699be42c8a8e46fbbb45",
+                "selectedQuantity": 1,
+                "itemName": "Pâte M"
+              },
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "2c624232cdd221771294dfbb",
+                "selectedQuantity": 1,
+                "itemName": "Pâte L"
+              }
+            ],
+            "name": "Pâte"
+          }
+        ],
+        "category": "Pizzas",
+        "menuType": "Ordinary",
+        "workflowType": "PIZZA",
+        "extras": [],
+        "analytics": {
+          "kind": "pizzas",
+          "categories": [
+            "pizzas-meat-lovers"
+          ],
+          "size": "Medium size",
+          "baseSauce": "Tomato sauce",
+          "edge": "Edge traditional"
+        }
+      },
+      {
+        "name": "Pizza 3 Cheeses",
+        "selectedQuantity": 1,
+        "itemId": "6b86b273ff34fce19d6b804e",
+        "quantityUnit": "pcs",
+        "internalName": "Pizza 3 Fromages",
+        "internalAbbr": "PZ-3FRO",
+        "priceInfo": {
+          "price": 500
+        },
+        "modifiers": [
+          {
+            "modifierId": "ef2d127de37b942baad06145",
+            "featuredDisplay": "SIZE",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "6b51d431df5d7f141cbececc",
+                "selectedQuantity": 1,
+                "itemName": "3 Fromage 25'"
+              }
+            ],
+            "name": "SZ 3 Fromage"
+          },
+          {
+            "modifierId": "d4735e3a265e16eee03f5971",
+            "featuredDisplay": "CORNICIONE",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "4b227777d4dd1fc61c6f884f",
+                "selectedQuantity": 1,
+                "itemName": "Bordure Traditionnelle"
+              }
+            ],
+            "name": "Bordure"
+          },
+          {
+            "modifierId": "6b86b273ff34fce19d6b804e",
+            "featuredDisplay": "SAUCE",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 0,
+                  "quantityName": ""
+                },
+                "optionId": "d4735e3a265e16eee03f5971",
+                "selectedQuantity": 1,
+                "itemName": "Sauce Tomate"
+              }
+            ],
+            "name": "Sauce blanche/tomate"
+          },
+          {
+            "modifierId": "6f4b6612125fb3a0daecd279",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 100,
+                  "adjustments": [
+                    {
+                      "modifierId": "ef2d127de37b942baad06145",
+                      "optionId": "3fdba35f04dc8c462986c992",
+                      "adjustmentType": "add",
+                      "price": 50
+                    },
+                    {
+                      "modifierId": "ef2d127de37b942baad06145",
+                      "optionId": "8527a891e224136950ff32ca",
+                      "adjustmentType": "add",
+                      "price": 100
+                    }
+                  ]
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 2,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "44c8031cb036a7350d8b9b86",
+                "selectedQuantity": 1,
+                "itemName": "Gruyere"
+              },
+              {
+                "priceInfo": {
+                  "price": 100,
+                  "adjustments": [
+                    {
+                      "modifierId": "ef2d127de37b942baad06145",
+                      "optionId": "3fdba35f04dc8c462986c992",
+                      "adjustmentType": "add",
+                      "price": 50
+                    },
+                    {
+                      "modifierId": "ef2d127de37b942baad06145",
+                      "optionId": "8527a891e224136950ff32ca",
+                      "adjustmentType": "add",
+                      "price": 100
+                    }
+                  ]
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 2,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "bbb965ab0c80d6538cf2184b",
+                "selectedQuantity": 1,
+                "itemName": "Cheddar"
+              },
+              {
+                "priceInfo": {
+                  "price": 240,
+                  "adjustments": [
+                    {
+                      "modifierId": "ef2d127de37b942baad06145",
+                      "optionId": "3fdba35f04dc8c462986c992",
+                      "adjustmentType": "add",
+                      "price": 0
+                    },
+                    {
+                      "modifierId": "ef2d127de37b942baad06145",
+                      "optionId": "8527a891e224136950ff32ca",
+                      "adjustmentType": "add",
+                      "price": 0
+                    }
+                  ]
+                },
+                "quantityInfo": {
+                  "minPermitted": 1,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "48449a14a4ff7d79bb7a1b6f",
+                "selectedQuantity": 1,
+                "itemName": "Mozzarella[150]"
+              }
+            ],
+            "name": "TOP 3 fromage"
+          },
+          {
+            "modifierId": "4e07408562bedb8b60ce05c1",
+            "options": [
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "e7f6c011776e8db7cd330b54",
+                "selectedQuantity": 1,
+                "itemName": "Pâte S"
+              },
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "7902699be42c8a8e46fbbb45",
+                "selectedQuantity": 1,
+                "itemName": "Pâte M"
+              },
+              {
+                "priceInfo": {
+                  "price": 0,
+                  "adjustments": []
+                },
+                "quantityInfo": {
+                  "minPermitted": 0,
+                  "maxPermitted": 1,
+                  "default": 1,
+                  "chargeAbove": 1,
+                  "quantityName": ""
+                },
+                "optionId": "2c624232cdd221771294dfbb",
+                "selectedQuantity": 1,
+                "itemName": "Pâte L"
+              }
+            ],
+            "name": "Pâte"
+          }
+        ],
+        "category": "Pizzas",
+        "menuType": "Ordinary",
+        "workflowType": "PIZZA",
+        "extras": [],
+        "analytics": {
+          "kind": "pizzas",
+          "categories": [
+            "pizzas-classic"
+          ],
+          "size": "Small size",
+          "baseSauce": "Tomato sauce",
+          "edge": "Edge traditional"
+        }
+      }
+    ],
+    "totalPrice": 1800
+  },
+  "priceDetails": {
+    "totalPrice": 1800,
+    "amountDue": 1800,
+    "details": [
+      {
+        "itemId": "d80eae6e96d148b3b2abbbc6",
+        "name": "HAM Selecto 1L",
+        "systemName": "(deprecated: use name instead) Selecto",
+        "internalName": "(deprecated: use name instead) HAM Selecto 1L",
+        "quantity": 1,
+        "unitTotalPrice": 150,
+        "totalPrice": 150,
+        "unitBasePrice": 150,
+        "unitModifiersPrice": 0,
+        "modifiersPriceDetails": [],
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/hamoud/hammoud-selecto-1l-hTebUP4YeQgocTv3vlcT4Ddp75svSK.png"
+      },
+      {
+        "itemId": "e29c9c180c6279b0b02abd6a",
+        "name": "Salade César",
+        "systemName": "(deprecated: use name instead) Caesar Salad",
+        "internalName": "(deprecated: use name instead) Salade César",
+        "quantity": 1,
+        "unitTotalPrice": 350,
+        "totalPrice": 350,
+        "unitBasePrice": 350,
+        "unitModifiersPrice": 0,
+        "modifiersPriceDetails": [],
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/salad-césar.png"
+      },
+      {
+        "itemId": "2c624232cdd221771294dfbb",
+        "name": "Pizza Pepperoni",
+        "systemName": "(deprecated: use name instead) Pizza Pepperoni",
+        "internalName": "(deprecated: use name instead) Pizza Pepperoni",
+        "quantity": 1,
+        "unitTotalPrice": 800,
+        "totalPrice": 800,
+        "unitBasePrice": 600,
+        "unitModifiersPrice": 200,
+        "modifiersPriceDetails": [
+          {
+            "modifierId": "6b51d431df5d7f141cbececc",
+            "name": "SZ Pepperoni",
+            "internalName": "(deprecated: use name instead) SZ Pepperoni",
+            "systemName": "(deprecated: use name instead) Sizes of Pizza Pepperoni",
+            "selectMode": "SINGLE",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "86e50149658661312a9e0b35",
+                "itemId": "a88a7902cb4ef697ba0b6759",
+                "name": "Pepperoni 30'",
+                "internalName": "(deprecated: use name instead) Pepperoni 30'",
+                "systemName": "(deprecated: use name instead) Medium size",
+                "isDefaultOption": false,
+                "unitPrice": 200,
+                "selectedQuantity": 1,
+                "chargedQuantity": 1,
+                "quantity": 1,
+                "totalPrice": 200,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_pepperoni-m.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "86e50149658661312a9e0b35",
+                "itemId": "a88a7902cb4ef697ba0b6759",
+                "name": "Pepperoni 30'",
+                "internalName": "(deprecated: use name instead) Pepperoni 30'",
+                "systemName": "(deprecated: use name instead) Medium size",
+                "isDefaultOption": false,
+                "unitPrice": 200,
+                "selectedQuantity": 1,
+                "chargedQuantity": 1,
+                "quantity": 1,
+                "totalPrice": 200,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_pepperoni-m.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [
+              {
+                "optionId": "86e50149658661312a9e0b35",
+                "itemId": "a88a7902cb4ef697ba0b6759",
+                "name": "Pepperoni 30'",
+                "internalName": "(deprecated: use name instead) Pepperoni 30'",
+                "systemName": "(deprecated: use name instead) Medium size",
+                "isDefaultOption": false,
+                "unitPrice": 200,
+                "selectedQuantity": 1,
+                "chargedQuantity": 1,
+                "quantity": 1,
+                "totalPrice": 200,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_pepperoni-m.png"
+              }
+            ],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 200,
+            "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_pepperoni.png"
+          },
+          {
+            "modifierId": "d4735e3a265e16eee03f5971",
+            "name": "Bordure",
+            "internalName": "(deprecated: use name instead) Bordure",
+            "systemName": "(deprecated: use name instead) Edge",
+            "selectMode": "SINGLE",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "4b227777d4dd1fc61c6f884f",
+                "itemId": "ad57366865126e55649ecb23",
+                "name": "Bordure Traditionnelle",
+                "internalName": "(deprecated: use name instead) Bordure Traditionnelle",
+                "systemName": "(deprecated: use name instead) Edge traditional",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "4b227777d4dd1fc61c6f884f",
+                "itemId": "ad57366865126e55649ecb23",
+                "name": "Bordure Traditionnelle",
+                "internalName": "(deprecated: use name instead) Bordure Traditionnelle",
+                "systemName": "(deprecated: use name instead) Edge traditional",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          },
+          {
+            "modifierId": "5feceb66ffc86f38d952786c",
+            "name": "Sauce tomate/blanche",
+            "internalName": "(deprecated: use name instead) Sauce tomate/blanche",
+            "systemName": "(deprecated: use name instead) Red Sauce First",
+            "selectMode": "SINGLE",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "5feceb66ffc86f38d952786c",
+                "itemId": "1a6562590ef19d1045d06c40",
+                "name": "Sauce Tomate",
+                "internalName": "(deprecated: use name instead) Sauce Tomate",
+                "systemName": "(deprecated: use name instead) Tomato sauce",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/tomato_sauce.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "5feceb66ffc86f38d952786c",
+                "itemId": "1a6562590ef19d1045d06c40",
+                "name": "Sauce Tomate",
+                "internalName": "(deprecated: use name instead) Sauce Tomate",
+                "systemName": "(deprecated: use name instead) Tomato sauce",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/tomato_sauce.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          },
+          {
+            "modifierId": "59e19706d51d39f66711c265",
+            "name": "TOP Pepperoni",
+            "internalName": "(deprecated: use name instead) TOP Pepperoni",
+            "systemName": "(deprecated: use name instead) Toppings Pepperoni",
+            "selectMode": "MULTI",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "0a2d643bfd24a028cd236e76",
+                "itemId": "6c658ee83fb7e812482494f3",
+                "name": "Mozzarella",
+                "internalName": "(deprecated: use name instead) Mozzarella[225]",
+                "systemName": "(deprecated: use name instead) Mozzarella",
+                "isDefaultOption": true,
+                "unitPrice": 360,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/mozzarella_sauce.png"
+              },
+              {
+                "optionId": "9a049b03f6fc40bfcf2f1363",
+                "itemId": "2ac878b0e2180616993b4b6a",
+                "name": "pepperoni",
+                "internalName": "(deprecated: use name instead) pepperoni[14]",
+                "systemName": "(deprecated: use name instead) Pepperoni",
+                "isDefaultOption": true,
+                "unitPrice": 280,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pepperoni_epice.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "0a2d643bfd24a028cd236e76",
+                "itemId": "6c658ee83fb7e812482494f3",
+                "name": "Mozzarella",
+                "internalName": "(deprecated: use name instead) Mozzarella[225]",
+                "systemName": "(deprecated: use name instead) Mozzarella",
+                "isDefaultOption": true,
+                "unitPrice": 360,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/mozzarella_sauce.png"
+              },
+              {
+                "optionId": "9a049b03f6fc40bfcf2f1363",
+                "itemId": "2ac878b0e2180616993b4b6a",
+                "name": "pepperoni",
+                "internalName": "(deprecated: use name instead) pepperoni[14]",
+                "systemName": "(deprecated: use name instead) Pepperoni",
+                "isDefaultOption": true,
+                "unitPrice": 280,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pepperoni_epice.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          },
+          {
+            "modifierId": "4e07408562bedb8b60ce05c1",
+            "name": "Pâte",
+            "internalName": "(deprecated: use name instead) Pâte",
+            "systemName": "(deprecated: use name instead) Dough",
+            "selectMode": "AUTO",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "7902699be42c8a8e46fbbb45",
+                "itemId": "454f63ac30c8322997ef025e",
+                "name": "Pâte M",
+                "internalName": "(deprecated: use name instead) Pâte M",
+                "systemName": "(deprecated: use name instead) Dough 30",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "7902699be42c8a8e46fbbb45",
+                "itemId": "454f63ac30c8322997ef025e",
+                "name": "Pâte M",
+                "internalName": "(deprecated: use name instead) Pâte M",
+                "systemName": "(deprecated: use name instead) Dough 30",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [
+              {
+                "optionId": "7902699be42c8a8e46fbbb45",
+                "itemId": "454f63ac30c8322997ef025e",
+                "name": "Pâte M",
+                "internalName": "(deprecated: use name instead) Pâte M",
+                "systemName": "(deprecated: use name instead) Dough 30",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          }
+        ],
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_pepperoni.png"
+      },
+      {
+        "itemId": "6b86b273ff34fce19d6b804e",
+        "name": "Pizza 3 Fromages",
+        "systemName": "(deprecated: use name instead) Pizza 3 Cheeses",
+        "internalName": "(deprecated: use name instead) Pizza 3 Fromages",
+        "quantity": 1,
+        "unitTotalPrice": 500,
+        "totalPrice": 500,
+        "unitBasePrice": 500,
+        "unitModifiersPrice": 0,
+        "modifiersPriceDetails": [
+          {
+            "modifierId": "ef2d127de37b942baad06145",
+            "name": "SZ 3 Fromage",
+            "internalName": "(deprecated: use name instead) SZ 3 Fromage",
+            "systemName": "(deprecated: use name instead) Sizes of Pizza 3 Cheeses",
+            "selectMode": "SINGLE",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "6b51d431df5d7f141cbececc",
+                "itemId": "02d20bbd7e394ad5999a4ceb",
+                "name": "3 Fromage 25'",
+                "internalName": "(deprecated: use name instead) 3 Fromage 25'",
+                "systemName": "(deprecated: use name instead) Small size",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_3_fromages-s.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "6b51d431df5d7f141cbececc",
+                "itemId": "02d20bbd7e394ad5999a4ceb",
+                "name": "3 Fromage 25'",
+                "internalName": "(deprecated: use name instead) 3 Fromage 25'",
+                "systemName": "(deprecated: use name instead) Small size",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_3_fromages-s.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_3_fromages.png"
+          },
+          {
+            "modifierId": "d4735e3a265e16eee03f5971",
+            "name": "Bordure",
+            "internalName": "(deprecated: use name instead) Bordure",
+            "systemName": "(deprecated: use name instead) Edge",
+            "selectMode": "SINGLE",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "4b227777d4dd1fc61c6f884f",
+                "itemId": "ad57366865126e55649ecb23",
+                "name": "Bordure Traditionnelle",
+                "internalName": "(deprecated: use name instead) Bordure Traditionnelle",
+                "systemName": "(deprecated: use name instead) Edge traditional",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "4b227777d4dd1fc61c6f884f",
+                "itemId": "ad57366865126e55649ecb23",
+                "name": "Bordure Traditionnelle",
+                "internalName": "(deprecated: use name instead) Bordure Traditionnelle",
+                "systemName": "(deprecated: use name instead) Edge traditional",
+                "isDefaultOption": true,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          },
+          {
+            "modifierId": "6b86b273ff34fce19d6b804e",
+            "name": "Sauce blanche/tomate",
+            "internalName": "(deprecated: use name instead) Sauce blanche/tomate",
+            "systemName": "(deprecated: use name instead) White Sauce First",
+            "selectMode": "SINGLE",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "d4735e3a265e16eee03f5971",
+                "itemId": "1a6562590ef19d1045d06c40",
+                "name": "Sauce Tomate",
+                "internalName": "(deprecated: use name instead) Sauce Tomate",
+                "systemName": "(deprecated: use name instead) Tomato sauce",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/tomato_sauce.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "d4735e3a265e16eee03f5971",
+                "itemId": "1a6562590ef19d1045d06c40",
+                "name": "Sauce Tomate",
+                "internalName": "(deprecated: use name instead) Sauce Tomate",
+                "systemName": "(deprecated: use name instead) Tomato sauce",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/tomato_sauce.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [
+              {
+                "optionId": "d4735e3a265e16eee03f5971",
+                "itemId": "1a6562590ef19d1045d06c40",
+                "name": "Sauce Tomate",
+                "internalName": "(deprecated: use name instead) Sauce Tomate",
+                "systemName": "(deprecated: use name instead) Tomato sauce",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/tomato_sauce.png"
+              }
+            ],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          },
+          {
+            "modifierId": "6f4b6612125fb3a0daecd279",
+            "name": "TOP 3 fromage",
+            "internalName": "(deprecated: use name instead) TOP 3 fromage",
+            "systemName": "(deprecated: use name instead) Topping 3 Cheese",
+            "selectMode": "MULTI",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "44c8031cb036a7350d8b9b86",
+                "itemId": "9537f32ec7599e1ae953af6c",
+                "name": "Gruyere",
+                "internalName": "(deprecated: use name instead) Gruyere",
+                "systemName": "(deprecated: use name instead) Gruyere",
+                "isDefaultOption": true,
+                "unitPrice": 100,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/gruyere.png"
+              },
+              {
+                "optionId": "bbb965ab0c80d6538cf2184b",
+                "itemId": "3346f2bbf6c34bd2dbe28bd1",
+                "name": "Cheddar",
+                "internalName": "(deprecated: use name instead) Cheddar",
+                "systemName": "(deprecated: use name instead) Cheddar",
+                "isDefaultOption": true,
+                "unitPrice": 100,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/cheddar.png"
+              },
+              {
+                "optionId": "48449a14a4ff7d79bb7a1b6f",
+                "itemId": "b1556dea32e9d0cdbfed038f",
+                "name": "Mozzarella",
+                "internalName": "(deprecated: use name instead) Mozzarella[150]",
+                "systemName": "(deprecated: use name instead) Mozzarella",
+                "isDefaultOption": true,
+                "unitPrice": 240,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/mozzarella_sauce.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "44c8031cb036a7350d8b9b86",
+                "itemId": "9537f32ec7599e1ae953af6c",
+                "name": "Gruyere",
+                "internalName": "(deprecated: use name instead) Gruyere",
+                "systemName": "(deprecated: use name instead) Gruyere",
+                "isDefaultOption": true,
+                "unitPrice": 100,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/gruyere.png"
+              },
+              {
+                "optionId": "bbb965ab0c80d6538cf2184b",
+                "itemId": "3346f2bbf6c34bd2dbe28bd1",
+                "name": "Cheddar",
+                "internalName": "(deprecated: use name instead) Cheddar",
+                "systemName": "(deprecated: use name instead) Cheddar",
+                "isDefaultOption": true,
+                "unitPrice": 100,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/cheddar.png"
+              },
+              {
+                "optionId": "48449a14a4ff7d79bb7a1b6f",
+                "itemId": "b1556dea32e9d0cdbfed038f",
+                "name": "Mozzarella",
+                "internalName": "(deprecated: use name instead) Mozzarella[150]",
+                "systemName": "(deprecated: use name instead) Mozzarella",
+                "isDefaultOption": true,
+                "unitPrice": 240,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/mozzarella_sauce.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          },
+          {
+            "modifierId": "4e07408562bedb8b60ce05c1",
+            "name": "Pâte",
+            "internalName": "(deprecated: use name instead) Pâte",
+            "systemName": "(deprecated: use name instead) Dough",
+            "selectMode": "AUTO",
+            "defaultOptionsPriceDetails": [
+              {
+                "optionId": "e7f6c011776e8db7cd330b54",
+                "itemId": "37834f2f25762f23e1f74a53",
+                "name": "Pâte S",
+                "internalName": "(deprecated: use name instead) Pâte S",
+                "systemName": "(deprecated: use name instead) Dough 25",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "selectedOptionsPriceDetails": [
+              {
+                "optionId": "e7f6c011776e8db7cd330b54",
+                "itemId": "37834f2f25762f23e1f74a53",
+                "name": "Pâte S",
+                "internalName": "(deprecated: use name instead) Pâte S",
+                "systemName": "(deprecated: use name instead) Dough 25",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "addedOptionsPriceDetails": [
+              {
+                "optionId": "e7f6c011776e8db7cd330b54",
+                "itemId": "37834f2f25762f23e1f74a53",
+                "name": "Pâte S",
+                "internalName": "(deprecated: use name instead) Pâte S",
+                "systemName": "(deprecated: use name instead) Dough 25",
+                "isDefaultOption": false,
+                "unitPrice": 0,
+                "selectedQuantity": 1,
+                "chargedQuantity": 0,
+                "quantity": 0,
+                "totalPrice": 0,
+                "itemImageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+              }
+            ],
+            "removedOptionsPriceDetails": [],
+            "totalPrice": 0,
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png"
+          }
+        ],
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_3_fromages.png"
+      }
+    ]
+  },
+  "kds": {
+    "diff": {
+      "items": [
+        {
+          "name": "HAM Selecto 1L",
+          "modifiers": []
+        },
+        {
+          "name": "Salade César",
+          "modifiers": []
+        },
+        {
+          "name": "Pizza Pepperoni",
+          "modifiers": [
+            {
+              "name": "Sauce tomate/blanche",
+              "selectedOption": {
+                "defaultQuantity": 1,
+                "selectedQuantity": 1,
+                "abbr": "ST",
+                "name": "Red Sauce First Tomato sauce"
+              }
+            },
+            {
+              "name": "Bordure",
+              "selectedOption": {
+                "defaultQuantity": 1,
+                "selectedQuantity": 1,
+                "abbr": "TRAD",
+                "name": "Edge Edge traditional"
+              }
+            },
+            {
+              "name": "Pâte",
+              "addedOptions": [
+                {
+                  "name": "Dough 25",
+                  "abbr": "DOU25",
+                  "defaultQuantity": 1,
+                  "selectedQuantity": 1
+                },
+                {
+                  "name": "Dough 30",
+                  "abbr": "DOU30",
+                  "defaultQuantity": 1,
+                  "selectedQuantity": 1
+                },
+                {
+                  "name": "Dough 35",
+                  "abbr": "DOU35",
+                  "defaultQuantity": 1,
+                  "selectedQuantity": 1
+                }
+              ],
+              "removedOptions": []
+            },
+            {
+              "name": "SZ Pepperoni",
+              "selectedOption": {
+                "defaultQuantity": 1,
+                "selectedQuantity": 1,
+                "abbr": "30",
+                "name": "Sizes of Pizza Pepperoni Medium size"
+              }
+            },
+            {
+              "name": "TOP Pepperoni",
+              "addedOptions": [],
+              "removedOptions": []
+            }
+          ]
+        },
+        {
+          "name": "Pizza 3 Fromages",
+          "modifiers": [
+            {
+              "name": "Sauce blanche/tomate",
+              "selectedOption": {
+                "defaultQuantity": 1,
+                "selectedQuantity": 1,
+                "abbr": "ST",
+                "name": "White Sauce First Tomato sauce"
+              }
+            },
+            {
+              "name": "Bordure",
+              "selectedOption": {
+                "defaultQuantity": 1,
+                "selectedQuantity": 1,
+                "abbr": "TRAD",
+                "name": "Edge Edge traditional"
+              }
+            },
+            {
+              "name": "Pâte",
+              "addedOptions": [
+                {
+                  "name": "Dough 25",
+                  "abbr": "DOU25",
+                  "defaultQuantity": 1,
+                  "selectedQuantity": 1
+                },
+                {
+                  "name": "Dough 30",
+                  "abbr": "DOU30",
+                  "defaultQuantity": 1,
+                  "selectedQuantity": 1
+                },
+                {
+                  "name": "Dough 35",
+                  "abbr": "DOU35",
+                  "defaultQuantity": 1,
+                  "selectedQuantity": 1
+                }
+              ],
+              "removedOptions": []
+            },
+            {
+              "name": "SZ 3 Fromage",
+              "selectedOption": {
+                "defaultQuantity": 1,
+                "selectedQuantity": 1,
+                "abbr": "25",
+                "name": "Sizes of Pizza 3 Cheeses Small size"
+              }
+            },
+            {
+              "name": "TOP 3 fromage",
+              "addedOptions": [],
+              "removedOptions": []
+            }
+          ]
+        }
+      ]
+    },
+    "items": [
+      {
+        "name": "HAM Selecto 1L",
+        "category": "Soft Drinks",
+        "workflowType": "BAR",
+        "quantity": 1,
+        "recipe": [],
+        "addedIngredients": [],
+        "removedIngredients": [],
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/hamoud/hammoud-selecto-1l-hTebUP4YeQgocTv3vlcT4Ddp75svSK.png"
+      },
+      {
+        "name": "Salade César",
+        "category": "Salades",
+        "workflowType": "BAR",
+        "quantity": 1,
+        "recipe": [],
+        "addedIngredients": [],
+        "removedIngredients": [],
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/salad-césar.png"
+      },
+      {
+        "name": "Pizza Pepperoni",
+        "category": "Pizzas",
+        "workflowType": "PIZZA",
+        "quantity": 1,
+        "recipe": [
+          {
+            "quantity": "300",
+            "tags": [],
+            "value": "Mz",
+            "name": "Mozzarella",
+            "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/mozzarella_sauce.png",
+            "measurementContainer": "orange-cup",
+            "ingredientSymbolImage": "",
+            "measurementContainerImage": ""
+          },
+          {
+            "quantity": "19",
+            "tags": [],
+            "value": "P",
+            "name": "pepperoni",
+            "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pepperoni_epice.png",
+            "measurementContainer": "unit",
+            "ingredientSymbolImage": "",
+            "measurementContainerImage": ""
+          },
+          {
+            "quantity": "1",
+            "value": "DOU30",
+            "name": "Pâte M",
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png",
+            "tags": [],
+            "measurementContainer": "",
+            "ingredientSymbolImage": "",
+            "measurementContainerImage": ""
+          }
+        ],
+        "addedIngredients": [],
+        "removedIngredients": [],
+        "size": "30",
+        "baseSauce": "ST",
+        "edge": "TRAD",
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_pepperoni.png"
+      },
+      {
+        "name": "Pizza 3 Fromages",
+        "category": "Pizzas",
+        "workflowType": "PIZZA",
+        "quantity": 1,
+        "recipe": [
+          {
+            "quantity": "50",
+            "tags": [],
+            "value": "Gr",
+            "name": "Gruyere",
+            "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/gruyere.png",
+            "measurementContainer": "transparant-cup-big",
+            "ingredientSymbolImage": "",
+            "measurementContainerImage": ""
+          },
+          {
+            "quantity": "50",
+            "tags": [],
+            "value": "CD",
+            "name": "Cheddar",
+            "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/cheddar.png",
+            "measurementContainer": "transparant-cup-big",
+            "ingredientSymbolImage": "",
+            "measurementContainerImage": ""
+          },
+          {
+            "quantity": "150",
+            "tags": [],
+            "value": "Mz",
+            "name": "Mozzarella",
+            "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/mozzarella_sauce.png",
+            "measurementContainer": "orange-cup",
+            "ingredientSymbolImage": "",
+            "measurementContainerImage": ""
+          },
+          {
+            "quantity": "1",
+            "value": "DOU25",
+            "name": "Pâte S",
+            "imageUrl": "https://cdn-dev.nekso.pizza/menu_configuration/placeholder.png",
+            "tags": [],
+            "measurementContainer": "",
+            "ingredientSymbolImage": "",
+            "measurementContainerImage": ""
+          }
+        ],
+        "addedIngredients": [],
+        "removedIngredients": [],
+        "size": "25",
+        "baseSauce": "ST",
+        "edge": "TRAD",
+        "imageUrl": "https://1uakk1f0zkkski3r.public.blob.vercel-storage.com/images/menu-configuration/pizza_3_fromages.png"
+      }
+    ]
+  },
+  "source": "mobile-ordering-app",
+  "paymentDetails": [
+    {
+      "method": "cash",
+      "value": 1800,
+      "timestamp": {
+        "$date": "2025-08-27T19:31:21.048Z"
+      },
+      "cashRegisterId": "caisse-1",
+      "cashierName": "haithem"
+    }
+  ],
+  "orderCreatedAt": {
+    "$date": "2025-08-27T19:31:41.567Z"
+  },
+  "createdAt": {
+    "$date": "2025-08-27T19:31:41.567Z"
+  },
+  "schemaVersion": 7,
+  "meta": {
+    "apiVersion": "7",
+    "kind": "order-record",
+    "service": "orders.oms.api.nekso.pizza"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T19:31:41.567Z"
+  },
+  "__v": 0
+}

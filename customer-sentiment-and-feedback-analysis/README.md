@@ -2,7 +2,7 @@
 # 🤖 Customer Sentiment & Feedback Analysis
 
 ## 🎯 Project Objective
-Apply Natural Language Processing (NLP) techniques to analyze customer reviews and feedback from various sources such as social media, surveys, and mobile apps. 
+Apply Natural Language Processing (NLP) techniques to analyze customer reviews and feedback collected from the Nexo Pizza mobile app as in Feedback [Collection Gamification subject.](https://github.com/nexopizza/hack-n-slice-constantine-2025/tree/main/feedback-collection-gamification)
 The goal is to detect satisfaction trends, flag potential issues early, and suggest actionable improvements or new offerings based on sentiment clusters.
 
 ---
@@ -11,10 +11,6 @@ The goal is to detect satisfaction trends, flag potential issues early, and sugg
 
 ### 1. 📥 Feedback Collection
 - Collect customer feedback from:
-  - Social media posts (e.g., Instagram, Facebook)
-  - Online reviews (e.g., Google, tripAdvisor)
-  - Survey responses
-  - App store comments
   - **Mobile app feedback form**:
     - Text feedback
     - Emoji sliders or rating scales
@@ -36,32 +32,48 @@ The goal is to detect satisfaction trends, flag potential issues early, and sugg
 - Recommend product or service enhancements
 - Identify opportunities for new offerings
 
-### 5. 🎮 Bonus: Gamified Feedback Collection
-- Create interactive feedback forms with:
-  - Emoji sliders for rating experience
-  - Mini-quizzes tailored to the product type
-  - Fun animations or rewards for participation
-
-#### 🍕 Product-Specific Quiz Examples
-- **Pizza**: Questions about dough, crust, sauce, baking, cheese, toppings
-- **Sandwich**: Bread type, filling freshness, sauce, portion size, packagi
-- **Pasta**: Pasta texture, sauce flavor, cheese, portion size
-- **Chicken**: Crispiness, seasoning, tenderness, portion size
-- **Dessert**: Sweetness, texture, presentation, freshness
-- **Drinks**: Temperature, flavor, carbonation, packaging
-
 ---
 
 ## 🧪 Sample Data Format
 
 ### Feedback Entry
+**Sample JSON of the feedback as stored in DB:**
+This is the document stored by feedback form in the mobile app  as in [The Feedback Collection Gamification subject](https://github.com/nexopizza/hack-n-slice-constantine-2025/tree/main/feedback-collection-gamification)
 ```json
 {
   "source": "Mobile App",
-  "timestamp": "2025-08-28T14:30:00",
+  "timestamp": "2025-08-29T18:15:00",
+  "user_id": "abc123",
   "product_type": "pizza",
-  "text": "The crust was perfect and the cheese was super tasty!",
-  "photo_url": "https://dummy-server-or-whatever-server/images/order123.jpg"
+  "quiz_result": "Artisan Spirit",
+  "service_rating": "Warm as a hearth",
+  "flavor_choice": "Tomate basilic",
+  "text_feedback": "Le service était chaleureux et fluide, et la saveur tomate basilic m’a transporté dans un jardin méditerranéen. La pâte était légère, la croûte croustillante, et la sauce parfaitement équilibrée.",
+  "recommend": true,
+  "language": "fr",
+  "location": "El Khroub, Algeria",
+  "item_details": {
+    "crust": {
+      "rating": 5,
+      "description": "Croustillante à l’extérieur, tendre à l’intérieur"
+    },
+    "dough": {
+      "rating": 4,
+      "description": "Légère et bien levée, avec une belle élasticité"
+    },
+    "sauce": {
+      "rating": 5,
+      "description": "Tomate basilic équilibrée, fraîche et parfumée"
+    },
+    "cheese": {
+      "rating": 4,
+      "description": "Fondante, bien dosée, avec une touche de caractère"
+    },
+    "toppings": {
+      "rating": 4,
+      "description": "Fraîches, bien réparties, et harmonieuses"
+    }
+  }
 }
 ```
 
@@ -69,39 +81,25 @@ The goal is to detect satisfaction trends, flag potential issues early, and sugg
 ```json
 {
   "sentiment": "positive",
-  "confidence": 0.94,
-  "keywords": ["crust", "perfect", "cheese", "tasty"]
+  "confidence": 0.93,
+  "keywords": [
+    "chaleureux", "fluide", "tomate basilic", "croustillante", "équilibrée", "fondante"
+  ],
+  "emotion": "joyful",
+  "persona_cluster": "Artisan Spirit",
+  "suggested_action": "Promote tomato basilic as a signature flavor; highlight crust texture and poetic branding in seasonal campaign"
 }
 ```
-
----
-
-## 🛠 Suggested Tools & Technologies
-
-| Tool/Tech        				| Purpose                                  |
-|-------------------------------|------------------------------------------|
-| NLTK / spaCy     				| NLP processing and sentiment analysis    |
-| TextBlob         				| Simple sentiment classification          |
-| scikit-learn     				| Machine learning for clustering          |
-| pandas           				| Data manipulation                        |
-| matplotlib / seaborn / plotly | Data visualization                       |
-| Flask / Streamlit				| Web interface for feedback analysis      |
-| React Native / Flutter 		| Mobile app development            	   |
-| Firebase / SQLite				| Mobile data storage                      |
-
----
 
 ## 🧠 Suggested Approach
 
 ### Step-by-Step Guide
-1. **Data Collection**: Gather feedback from all sources and store in a structured format.
-2. **Mobile App Integration**: Build a feedback form in the app with optional photo upload and product-specific quizzes.
+1. **Data Collection**: Generate data using the feedback input sample above
 3. **Preprocessing**: Clean and tokenize text, remove stopwords, normalize data.
 4. **Sentiment Analysis**: Apply NLP models to classify sentiment and extract keywords.
 5. **Trend Analysis**: Aggregate sentiment over time and visualize trends.
 6. **Clustering**: Group feedback by topic and sentiment to identify common themes.
 7. **Recommendation Engine**: Suggest improvements based on clustered feedback.
-8. **Gamified UI**: Build a fun and engaging interface for collecting feedback.
 
 ---
 
@@ -109,8 +107,6 @@ The goal is to detect satisfaction trends, flag potential issues early, and sugg
 - Understand and apply NLP techniques to real-world data
 - Build a sentiment analysis pipeline
 - Visualize customer satisfaction trends
-- Design interactive and gamified feedback forms
-- Develop a mobile feedback collection flow with multimedia support
 
 ---
 
@@ -118,5 +114,3 @@ The goal is to detect satisfaction trends, flag potential issues early, and sugg
 - Multilingual sentiment analysis
 - Real-time feedback monitoring dashboard
 - Integration with CRM or support systems
-- AI-generated response suggestions
-

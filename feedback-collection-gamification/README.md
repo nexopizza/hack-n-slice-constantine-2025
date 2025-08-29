@@ -12,7 +12,7 @@ Participants should:
 
 - Design interactive feedback components such as:
   - Mini-quizzes (e.g. “What kind of pizza spirit are you?”)
-  - Emoji sliders (e.g. drag a pizza slice from “meh” to “divine!”)
+  - Emoji sliders (e.g. drag a pizza slice from “normal” to “foooorrrt!!”)
   - Tap-based reactions, animated buttons, or micro-games
 - Ensure the system captures useful operational data (e.g. satisfaction, wait time, cleanliness, staff friendliness)
 - Make it multilingual and culturally adaptable (especially French, Arabic, and English)
@@ -46,20 +46,6 @@ Participants should:
 
 ---
 
-## 🧰 Recommended Tools & Frameworks
-
-| Purpose              | Tools                                                                 |
-|----------------------|-----------------------------------------------------------------------|
-| UI/UX Design         | Figma, Adobe XD, Canva, LottieFiles (for animations)                 |
-| Frontend Prototyping | Flutter, React Native, Bubble.io                                     |
-| Gamification Logic   | Unity (for micro-games), Phaser.js, simple JS libraries              |
-| Backend Simulation   | Firebase, Supabase, Node.js with Express                             |
-| Multilingual Support | i18next, Lokalise, Google ML Kit                                     |
-| Data Visualization   | Chart.js, D3.js, Retool                                              |
-| AI Integration       | OpenAI API (for dynamic prompts), Dialogflow (for conversational UX) |
-
----
-
 ## ✨ Sample Modules
 
 ### 🍕 Module 1: Mini-Quiz — “What Kind of Pizza Spirit Are You?”
@@ -69,12 +55,21 @@ Participants should:
 **Flow:**
 1. Intro: “Welcome, traveler of taste! Let us divine your pizza spirit…”
 2. Questions:
-   - “Your ideal evening feels like…” (souks, gardens, taverns, workshops)
-   - “How did our service feel today?” (swift, warm, tangled, rhythmic)
-   - “What flavor would you chase next?” (lamb & fig, citrus mint, harissa & honey, tomato basil)
+   - “Your ideal evening feels like…” (souks, gardens, taverns, chantier)
+   - “How did our service feel today?” (speed, warm, complex, rhythmic)
+   - “What flavor would you chase next?” (fromage, citrus mint, harissa & honey, tomato basil)
 3. Result: “You are the Artisan Spirit — bold, curious, and full of fire!”  
    - Avatar + badge + optional social share  
    - Feedback stored behind the scenes
+
+**Refinement:**
+#### 🍕 Product-Specific Quiz Examples
+- **Pizza**: Questions about dough, crust, sauce, baking, cheese, toppings
+- **Sandwich**: Bread type, filling freshness, sauce, portion size, packagi
+- **Pasta**: Pasta texture, sauce flavor, cheese, portion size
+- **Chicken**: Crispiness, seasoning, tenderness, portion size
+- **Dessert**: Sweetness, texture, presentation, freshness
+- **Drinks**: Temperature, flavor, carbonation, packaging
 
 ### 😋 Module 2: Emoji Slider — “Rate Your Flavor Journey”
 
@@ -83,10 +78,10 @@ Participants should:
 | Slider Position | Emoji | Label             |
 |----------------|-------|-------------------|
 | 0%             | 😐🍕  | “Not my taste”     |
-| 25%            | 🙂🍕  | “Okay-ish”         |
-| 50%            | 😋🍕  | “Tasty!”           |
-| 75%            | 🤤🍕  | “Delicious!”       |
-| 100%           | 🥰🍕  | “Divine!”          |
+| 25%            | 🙂🍕  | “T3adi”         |
+| 50%            | 😋🍕  | “Bnina!”           |
+| 75%            | 🤤🍕  | “Forrt!”       |
+| 100%           | 🥰🍕  | “Mahboula!”          |
 
 - Background changes subtly with each level
 - Optional follow-up: “Would you recommend us?” 👍👎
@@ -100,3 +95,44 @@ Participants should:
   "flavor_rating": 75,
   "recommend": true
 }
+```
+
+**Sample JSON of the feedback as stored in DB:**
+This is the document that will be analyzed by NLP in the next subject **customer-sentiment-and-feedback-analysis**
+```json
+{
+  "source": "Mobile App",
+  "timestamp": "2025-08-29T18:15:00",
+  "user_id": "abc123",
+  "product_type": "pizza",
+  "quiz_result": "Artisan Spirit",
+  "service_rating": "Warm as a hearth",
+  "flavor_choice": "Tomate basilic",
+  "text_feedback": "Le service était chaleureux et fluide, et la saveur tomate basilic m’a transporté dans un jardin méditerranéen. La pâte était légère, la croûte croustillante, et la sauce parfaitement équilibrée.",
+  "recommend": true,
+  "language": "fr",
+  "location": "El Khroub, Algeria",
+  "item_details": {
+    "crust": {
+      "rating": 5,
+      "description": "Croustillante à l’extérieur, tendre à l’intérieur"
+    },
+    "dough": {
+      "rating": 4,
+      "description": "Légère et bien levée, avec une belle élasticité"
+    },
+    "sauce": {
+      "rating": 5,
+      "description": "Tomate basilic équilibrée, fraîche et parfumée"
+    },
+    "cheese": {
+      "rating": 4,
+      "description": "Fondante, bien dosée, avec une touche de caractère"
+    },
+    "toppings": {
+      "rating": 4,
+      "description": "Fraîches, bien réparties, et harmonieuses"
+    }
+  }
+}
+```

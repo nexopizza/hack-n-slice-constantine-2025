@@ -155,12 +155,12 @@ Good luck, and may the best forecaster win!
 
 ---
 
-[https://www.mongodb.com/docs/database-tools/mongoimport/#mongodb-binary-bin.mongoimport]: MongoDB NDJSON
-[https://news-and-weather.2025.hns.playground.nekso.pizza]: playground website
-[https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/items.ndjson-CbtgqfG0lUliYbnwmJCmC8pzpGkzfX.gz]: items.ndjson
-[https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/options.ndjson-5TPjU4AO0PnOj5dlgzeR0NbTahpRAY.gz]: options.ndjson
-[https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/order_items.ndjson-QQYwJqJIfdr1uh3YE0dxnyOJdgYqvL.gz]: order_items.ndjson
-[https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/orders.ndjson-L3P2bizh2D8yeznW29Og8vzWgx4p4R.gz]: orders.ndjson
-[https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/restocks.ndjson-K9YIYdyZf4OXz2AoZyScZSfA7GV7MA.gz]: restocks.ndjson
-[https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/stock_moves.ndjson-F1IGODrCZAk5PcaL8iB52QKOw9l5ua.gz]: stock_moves.ndjson
+[MongoDB NDJSON]: https://www.mongodb.com/docs/database-tools/mongoimport/#mongodb-binary-bin.mongoimport
+[playground website]: https://news-and-weather.2025.hns.playground.nekso.pizza
+[items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/items.ndjson-CbtgqfG0lUliYbnwmJCmC8pzpGkzfX.gz
+[options.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/options.ndjson-5TPjU4AO0PnOj5dlgzeR0NbTahpRAY.gz
+[order_items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/order_items.ndjson-QQYwJqJIfdr1uh3YE0dxnyOJdgYqvL.gz
+[orders.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/orders.ndjson-L3P2bizh2D8yeznW29Og8vzWgx4p4R.gz
+[restocks.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/restocks.ndjson-K9YIYdyZf4OXz2AoZyScZSfA7GV7MA.gz
+[stock_moves.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/stock_moves.ndjson-F1IGODrCZAk5PcaL8iB52QKOw9l5ua.gz
 

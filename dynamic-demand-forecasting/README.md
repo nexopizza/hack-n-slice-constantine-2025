@@ -156,7 +156,7 @@ Good luck, and may the best forecaster win!
 ---
 
 [MongoDB NDJSON]: https://www.mongodb.com/docs/database-tools/mongoimport/#mongodb-binary-bin.mongoimport
-[playground website]: https://news-and-weather.2025.hns.playground.nekso.pizza
+[playground website]: https://nexopizza.github.io/hack-n-slice-constantine-2025/
 [items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/items.ndjson-CbtgqfG0lUliYbnwmJCmC8pzpGkzfX.gz
 [options.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/options.ndjson-5TPjU4AO0PnOj5dlgzeR0NbTahpRAY.gz
 [order_items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/order_items.ndjson-QQYwJqJIfdr1uh3YE0dxnyOJdgYqvL.gz

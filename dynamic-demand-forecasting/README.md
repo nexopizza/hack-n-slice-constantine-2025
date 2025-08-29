@@ -93,63 +93,63 @@ Data split
 ## Items
 ### Product catalog.
 
-_id: ObjectId (product id)
-name: product name (Pizza Pepperoni)
-category: category (Pizzas, Drinks, etc.)
-workflow: preparation workflow (PIZZA, BAR, etc.)
-basePrice: base price in cents (e.g. 600 = 600 DZD)
-hasSize, hasToppings: booleans for product customization
+- `_id`: ObjectId (product id)
+- `name`: product name (Pizza Pepperoni)
+- `category`: category (Pizzas, Drinks, etc.)
+- `workflow`: preparation workflow (PIZZA, BAR, etc.)
+- `basePrice`: base price in cents (e.g. 600 = 600 DZD)
+- `hasSize`, hasToppings: booleans for product customization
 
 ## Options
 ### Modifiers (sizes, sauces, toppings, edges).
 
-_id: ObjectId (option id)
-kind: SIZE | SAUCE | EDGE | TOPPING
-name: option label (30', Tomate, Traditionnelle)
-priceDelta: price adjustment (int, cents)
-itemScope: list of item ids this option applies to
+- `_id`: ObjectId (option id)
+- `kind`: SIZE | SAUCE | EDGE | TOPPING
+- `name`: option label (30', Tomate, Traditionnelle)
+- `priceDelta`: price adjustment (int, cents)
+- `itemScope`: list of item ids this option applies to
 
 ## Orders
 ### Order headers.
 
-`_id`: ObjectId (order id)
-`storeId`: ObjectId (always the same store in this dataset)
-`source`: pos | delivery | online
-`status`: DELIVERED, CANCELLED, REJECTED, IN_PROGRESS
-`createdAt`: ISO date-time
+- `_id`: ObjectId (order id)
+- `storeId`: ObjectId (always the same store in this dataset)
+- `source`: pos | delivery | online
+- `status`: DELIVERED, CANCELLED, REJECTED, IN_PROGRESS
+- `createdAt`: ISO date-time
 
 ## Order Items
 ### Order line items.
 
-`_id`: ObjectId (line id)
-`orderId`: reference to orders
-`lineNo`: line number in the order (1, 2, …)
-`itemId`: reference to items
-`qty`: quantity
-`unitPrice`: base price (before options)
-`appliedOptions`: array of option ids
+- `_id`: ObjectId (line id)
+- `orderId`: reference to orders
+- `lineNo`: line number in the order (1, 2, …)
+- `itemId`: reference to items
+- `qty`: quantity
+- `unitPrice`: base price (before options)
+- `appliedOptions`: array of option ids
 
 ## Restocks (Stage 2)
 ### Ingredient restock batches.
 
-`_id`: ObjectId (restock id)
-`stockItemId`: ingredient id
-`storeId`: ObjectId
-`initialQty`: starting quantity (unit below)
-`unit`: unit (pcs, gr, ml, …)
-`ttlSec`: shelf life in seconds
-`createdAt`: timestamp
+- `_id`: ObjectId (restock id)
+- `stockItemId`: ingredient id
+- `storeId`: ObjectId
+- `initialQty`: starting quantity (unit below)
+- `unit`: unit (pcs, gr, ml, …)
+- `ttlSec`: shelf life in seconds
+- `createdAt`: timestamp
 
 ## Stock moves (Stage 2)
 ### Ingredient consumption/adjustments.
 
-`restockId`: reference to restock
-`uuid`: unique string
-`type`: issue | adjust | etc.
-`cause`: order-accepted, waste, …
-`value`: negative = consumed, positive = added
-`orderId`: optional link to the order that caused it
-`timestamp`: ISO date-time
+- `restockId`: reference to restock
+- `uuid`: unique string
+- `type`: issue | adjust | etc.
+- `cause`: order-accepted, waste, …
+- `value`: negative = consumed, positive = added
+- `orderId`: optional link to the order that caused it
+- `timestamp`: ISO date-time
 
 Good luck, and may the best forecaster win!
 

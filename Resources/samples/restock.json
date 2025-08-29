@@ -1,0 +1,150 @@
+{
+  "_id": {
+    "$oid": "68a17df773a2d98015bdfa14"
+  },
+  "itemId": {
+    "$oid": "681b24fe624275066f1cc182"
+  },
+  "storeId": {
+    "$oid": "5feceb66ffc86f38d952786c"
+  },
+  "initialQuantity": 10000,
+  "transactions": [
+    {
+      "uuid": "ad8d9182-6687-4044-b21a-d8808b90e8d3",
+      "orderId": "68a1822d964e86b98fa1a625",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -800,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:06.061Z"
+      }
+    },
+    {
+      "uuid": "ef0ce694-4cfa-4eb8-8373-984e14719fa7",
+      "orderId": "68a1822e964e86b98fa1a637",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:06.541Z"
+      }
+    },
+    {
+      "uuid": "28fbcac8-e464-441c-9853-7e926c686c6f",
+      "orderId": "68a1822e964e86b98fa1a63f",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:07.081Z"
+      }
+    },
+    {
+      "uuid": "57dfa5d9-b4bb-4efb-bce4-49ff504f1c28",
+      "orderId": "68a1822f964e86b98fa1a651",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:07.565Z"
+      }
+    },
+    {
+      "uuid": "67b10f6f-eff9-40b6-b106-f3d37d790b0d",
+      "orderId": "68a1822f964e86b98fa1a663",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:07.983Z"
+      }
+    },
+    {
+      "uuid": "13c31d15-5d6f-4922-9ce9-b76e8550e5b3",
+      "orderId": "68a18232964e86b98fa1a69f",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:17.635Z"
+      }
+    },
+    {
+      "uuid": "f0a1c855-d5ce-4a6a-8f6a-0561bd43f380",
+      "orderId": "68a1823a964e86b98fa1a6a9",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:18.282Z"
+      }
+    },
+    {
+      "uuid": "57f6dc9f-3019-447e-8711-e07fd43ebd2c",
+      "orderId": "68a18230964e86b98fa1a66d",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:18.626Z"
+      }
+    },
+    {
+      "uuid": "cdcc24f0-6e0d-43f7-97b2-44331d530c1f",
+      "orderId": "68a1823a964e86b98fa1a6b3",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:19.047Z"
+      }
+    },
+    {
+      "uuid": "ec542d1d-329b-44bc-99ed-8252ad1f54c0",
+      "orderId": "68a18231964e86b98fa1a697",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:22.031Z"
+      }
+    },
+    {
+      "uuid": "7b83d83b-e96d-4e1a-b27e-412226ba30ee",
+      "orderId": "68a18231964e86b98fa1a68f",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -900,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:22.337Z"
+      }
+    },
+    {
+      "uuid": "eada3a3d-01f3-49aa-9c21-b8b8521e5aa6",
+      "orderId": "68a1823b964e86b98fa1a6bd",
+      "type": "issue",
+      "cause": "order-accepted",
+      "value": -200,
+      "timestamp": {
+        "$date": "2025-08-17T07:18:22.636Z"
+      }
+    }
+  ],
+  "ttl": 691200,
+  "unit": "gr",
+  "isDropped": false,
+  "schemaVersion": 2,
+  "meta": {
+    "apiVersion": "2",
+    "kind": "restock-item",
+    "service": "stocks.oms.api.nekso.pizza"
+  },
+  "createdAt": {
+    "$date": "2025-08-17T07:00:07.107Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T07:18:22.636Z"
+  },
+  "__v": 0
+}

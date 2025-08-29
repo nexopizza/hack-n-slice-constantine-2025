@@ -29,13 +29,13 @@ Your task
 
 Data you will use
 
-- [MongoDB NDJSON][mongoimport] collections:
-    - `items.ndjson` (products catalog [link][items.ndjson])
-    - `options.ndjson` (sizes, toppings, sauces, edges [link][options.ndjson])
-    - `orders.ndjson` (order headers [link][orders.ndjson])
-    - `order_items.ndjson` (order line items [link][order_items.ndjson])
+- [MongoDB NDJSON](mongoimport) collections:
+    - `items.ndjson` (products catalog [link](items.ndjson))
+    - `options.ndjson` (sizes, toppings, sauces, edges [link](options.ndjson))
+    - `orders.ndjson` (order headers [link](orders.ndjson))
+    - `order_items.ndjson` (order line items [link](order_items.ndjson))
 - External signals:
-    - News & events: [from playground website][playground-website]
+    - News & events: [from playground website](playground-website)
     - Weather forecast/observations: from the same site
 
 # Stage 2 — Out-of-Stock Effects
@@ -47,9 +47,9 @@ Your task
 
 Data you will use
 
-- Additional [NDJSON][mongoimport] collections:
-    - `restocks.ndjson` (batches of ingredients delivered to the store [link][restocks.ndjson])
-    - `stock_moves.ndjson` (ingredient consumption, waste, corrections [link][stock_moves.ndjson])
+- Additional [NDJSON](mongoimport) collections:
+    - `restocks.ndjson` (batches of ingredients delivered to the store [link](restocks.ndjson))
+    - `stock_moves.ndjson` (ingredient consumption, waste, corrections [link](stock_moves.ndjson))
 
 # Importing the NDJSON
 
@@ -163,3 +163,4 @@ Good luck, and may the best forecaster win!
 [https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/orders.ndjson-L3P2bizh2D8yeznW29Og8vzWgx4p4R.gz]: orders.ndjson
 [https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/restocks.ndjson-K9YIYdyZf4OXz2AoZyScZSfA7GV7MA.gz]: restocks.ndjson
 [https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/stock_moves.ndjson-F1IGODrCZAk5PcaL8iB52QKOw9l5ua.gz]: stock_moves.ndjson
+

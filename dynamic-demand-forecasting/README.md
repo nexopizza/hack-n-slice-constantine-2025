@@ -29,13 +29,13 @@ Your task
 
 Data you will use
 
-- [MongoDB NDJSON](mongoimport) collections:
-    - `items.ndjson` (products catalog [link](items.ndjson))
-    - `options.ndjson` (sizes, toppings, sauces, edges [link](options.ndjson))
-    - `orders.ndjson` (order headers [link](orders.ndjson))
-    - `order_items.ndjson` (order line items [link](order_items.ndjson))
+- [MongoDB NDJSON] collections:
+    - `items.ndjson` (products catalog - download from [items.ndjson])
+    - `options.ndjson` (sizes, toppings, sauces, edges - download from [options.ndjson])
+    - `orders.ndjson` (order headers - download from [orders.ndjson])
+    - `order_items.ndjson` (order line items - download from [order_items.ndjson])
 - External signals:
-    - News & events: [from playground website](playground-website)
+    - News & events: available on the [playground website])
     - Weather forecast/observations: from the same site
 
 # Stage 2 — Out-of-Stock Effects
@@ -47,9 +47,9 @@ Your task
 
 Data you will use
 
-- Additional [NDJSON](mongoimport) collections:
-    - `restocks.ndjson` (batches of ingredients delivered to the store [link](restocks.ndjson))
-    - `stock_moves.ndjson` (ingredient consumption, waste, corrections [link](stock_moves.ndjson))
+- Additional MongodDB NDJSON collections:
+    - `restocks.ndjson` (batches of ingredients delivered to the store - download from [restocks.ndjson])
+    - `stock_moves.ndjson` (ingredient consumption, waste, corrections - download from [stock_moves.ndjson])
 
 # Importing the NDJSON
 
@@ -155,8 +155,8 @@ Good luck, and may the best forecaster win!
 
 ---
 
-[https://www.mongodb.com/docs/database-tools/mongoimport/#mongodb-binary-bin.mongoimport]: mongoimport
-[https://news-and-weather.2025.hns.playground.nekso.pizza]: playground-website
+[https://www.mongodb.com/docs/database-tools/mongoimport/#mongodb-binary-bin.mongoimport]: MongoDB NDJSON
+[https://news-and-weather.2025.hns.playground.nekso.pizza]: playground website
 [https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/items.ndjson-CbtgqfG0lUliYbnwmJCmC8pzpGkzfX.gz]: items.ndjson
 [https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/options.ndjson-5TPjU4AO0PnOj5dlgzeR0NbTahpRAY.gz]: options.ndjson
 [https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/order_items.ndjson-QQYwJqJIfdr1uh3YE0dxnyOJdgYqvL.gz]: order_items.ndjson

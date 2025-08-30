@@ -1,60 +1,62 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Constantine — 2023-11-23</title>
+<!doctype html><html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Context — 2023-11-23</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:2rem;line-height:1.45;color:#222}
+    header{margin-bottom:1rem}
+    nav a{margin-right:1rem}
+    .section{margin:1.5rem 0}
+    table{border-collapse:collapse;width:100%;max-width:900px}
+    th,td{border:1px solid #ddd;padding:.5rem;text-align:left}
+    th{background:#f6f6f6}
+    .muted{color:#666}
+    .tag{display:inline-block;background:#eef;padding:.15rem .4rem;margin:.1rem;border-radius:.25rem;font-size:.85rem}
+    .chip{display:inline-block;background:#efe;padding:.15rem .4rem;margin:.1rem;border-radius:.25rem;font-size:.85rem}
+  </style>
+</head><body>
+  <header>
+    <h1>Daily Context — <span class="date">2023-11-23</span></h1>
+    <div class="muted">Constantine, DZ</div>
+    <nav>
+      <a href="index.html">Index</a>
+      <a href="2023-11-22.html">Prev</a>
+      <a href="2023-11-24.html">Next</a>
+    </nav>
+  </header>
 
-<style>
-:root { --fg:#111; --muted:#666; --line:#eaeaea; }
-* { box-sizing:border-box }
-body { margin:0; font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--fg); }
-header,footer { padding:16px; border-bottom:1px solid var(--line); }
-footer { border-top:1px solid var(--line); border-bottom:0; margin-top:40px; color:var(--muted); font-size:12px }
-main { padding:16px; max-width:900px; margin:0 auto }
-section { margin:16px 0; }
-.card { border:1px solid var(--line); border-radius:8px; padding:12px; }
-ul { padding-left:20px; }
-time { font-variant-numeric: tabular-nums; }
-a { color:inherit }
-a:hover { text-decoration: underline }
-table.dates { width:100%; border-collapse:collapse; margin-top:16px }
-table.dates td { padding:6px 0; border-bottom:1px dashed var(--line) }
-nav.pager { margin-top:24px; font-size:14px }
-code.kv { background:#f7f7f7; padding:1px 4px; border-radius:4px; }
-</style>
-</head>
-<body>
-<header><h1 style="margin:0;font-size:22px;">Constantine — News & Weather</h1></header>
-<main>
-      <h2 style="margin-bottom:4px;">Day: 2023-11-23</h2>
-      <section id="weather" class="card">
-  <h3 style="margin-top:0">Weather</h3>
-  <p><strong>Constantine, DZ</strong> — sunny
-  <br />Temp: 27.7°C → 33.4°C
-  <br />Humidity: 47% · Wind: 10 kph
-  <br />Precip: 0 mm (p=0.215)</p>
-</section>
-      <section aria-labelledby="news">
-  <h3 id="news">News & Events</h3>
-  <ul><li style="margin-bottom:12px;">
-      <article>
-        <h4 style="margin:0 0 4px;">powerless Public Holiday</h4>
-        <p style="margin:0;color:#666;">
-          <time>00:00</time> · public_holiday · all · holiday | family | leisure
-        </p>
-        <p style="margin:6px 0 0">City-wide day off. Families gather; dine-in lunch can increase; delivery rises at dinner.</p>
-      </article>
-    </li>
-  </ul>
-</section>
-      <nav class="pager">
-        <a href="./2023-11-22.html">← 2023-11-22</a>
-         · 
-        <a href="./2023-11-24.html">2023-11-24 →</a>
-      </nav>
-    </main>
-<footer>
-  <p>Static, scrape-friendly HTML. One page per day. CSVs available in repository.</p>
-</footer>
+  <section class="section weather">
+    <h2>Weather</h2>
+    
+    <table>
+      <tr><th>Description</th><td class="weather_desc">sunny</td></tr>
+      <tr><th>Temp min/max (°C)</th><td><span class="temp_min_c">27.7</span> / <span class="temp_max_c">33.4</span></td></tr>
+      <tr><th>Humidity (%)</th><td class="humidity_pct">47</td></tr>
+      <tr><th>Wind (kph)</th><td class="wind_kph">10</td></tr>
+      <tr><th>Precip (mm)</th><td class="precip_mm">0</td></tr>
+      <tr><th>Precip prob</th><td class="precip_prob">0.215</td></tr>
+      <tr><th>Alerts</th><td class="alerts"></td></tr>
+    </table>
+    
+  </section>
+
+  <section class="section events">
+    <h2>Events</h2>
+    
+    <table>
+      <thead><tr><th>Time</th><th>Type</th><th>Title</th><th>Description</th><th>Channel</th><th>Tags</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="start_time_local">00:00</td>
+          <td class="event_type">public_holiday</td>
+          <td class="title">grizzled Public Holiday</td>
+          <td class="description">City-wide day off. Families gather; dine-in lunch can increase; delivery rises at dinner.</td>
+          <td class="channel_focus">all</td>
+          <td class="tags">holiday|family|leisure</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </section>
+
 </body></html>

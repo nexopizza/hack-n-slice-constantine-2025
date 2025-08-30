@@ -1,60 +1,62 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Constantine — 2024-08-09</title>
+<!doctype html><html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Context — 2024-08-09</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:2rem;line-height:1.45;color:#222}
+    header{margin-bottom:1rem}
+    nav a{margin-right:1rem}
+    .section{margin:1.5rem 0}
+    table{border-collapse:collapse;width:100%;max-width:900px}
+    th,td{border:1px solid #ddd;padding:.5rem;text-align:left}
+    th{background:#f6f6f6}
+    .muted{color:#666}
+    .tag{display:inline-block;background:#eef;padding:.15rem .4rem;margin:.1rem;border-radius:.25rem;font-size:.85rem}
+    .chip{display:inline-block;background:#efe;padding:.15rem .4rem;margin:.1rem;border-radius:.25rem;font-size:.85rem}
+  </style>
+</head><body>
+  <header>
+    <h1>Daily Context — <span class="date">2024-08-09</span></h1>
+    <div class="muted">Constantine, DZ</div>
+    <nav>
+      <a href="index.html">Index</a>
+      <a href="2024-08-08.html">Prev</a>
+      <a href="2024-08-10.html">Next</a>
+    </nav>
+  </header>
 
-<style>
-:root { --fg:#111; --muted:#666; --line:#eaeaea; }
-* { box-sizing:border-box }
-body { margin:0; font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--fg); }
-header,footer { padding:16px; border-bottom:1px solid var(--line); }
-footer { border-top:1px solid var(--line); border-bottom:0; margin-top:40px; color:var(--muted); font-size:12px }
-main { padding:16px; max-width:900px; margin:0 auto }
-section { margin:16px 0; }
-.card { border:1px solid var(--line); border-radius:8px; padding:12px; }
-ul { padding-left:20px; }
-time { font-variant-numeric: tabular-nums; }
-a { color:inherit }
-a:hover { text-decoration: underline }
-table.dates { width:100%; border-collapse:collapse; margin-top:16px }
-table.dates td { padding:6px 0; border-bottom:1px dashed var(--line) }
-nav.pager { margin-top:24px; font-size:14px }
-code.kv { background:#f7f7f7; padding:1px 4px; border-radius:4px; }
-</style>
-</head>
-<body>
-<header><h1 style="margin:0;font-size:22px;">Constantine — News & Weather</h1></header>
-<main>
-      <h2 style="margin-bottom:4px;">Day: 2024-08-09</h2>
-      <section id="weather" class="card">
-  <h3 style="margin-top:0">Weather</h3>
-  <p><strong>Constantine, DZ</strong> — sunny
-  <br />Temp: 24.6°C → 30.8°C
-  <br />Humidity: 48% · Wind: 16 kph
-  <br />Precip: 0 mm (p=0)</p>
-</section>
-      <section aria-labelledby="news">
-  <h3 id="news">News & Events</h3>
-  <ul><li style="margin-bottom:12px;">
-      <article>
-        <h4 style="margin:0 0 4px;">dreary Derby — South Marilou vs Leonardoside</h4>
-        <p style="margin:0;color:#666;">
-          <time>17:30</time> · football_final · delivery · football | derby | sports | prime
-        </p>
-        <p style="margin:6px 0 0">High-profile local derby match.</p>
-      </article>
-    </li>
-  </ul>
-</section>
-      <nav class="pager">
-        <a href="./2024-08-08.html">← 2024-08-08</a>
-         · 
-        <a href="./2024-08-10.html">2024-08-10 →</a>
-      </nav>
-    </main>
-<footer>
-  <p>Static, scrape-friendly HTML. One page per day. CSVs available in repository.</p>
-</footer>
+  <section class="section weather">
+    <h2>Weather</h2>
+    
+    <table>
+      <tr><th>Description</th><td class="weather_desc">sunny</td></tr>
+      <tr><th>Temp min/max (°C)</th><td><span class="temp_min_c">24.6</span> / <span class="temp_max_c">30.8</span></td></tr>
+      <tr><th>Humidity (%)</th><td class="humidity_pct">48</td></tr>
+      <tr><th>Wind (kph)</th><td class="wind_kph">16</td></tr>
+      <tr><th>Precip (mm)</th><td class="precip_mm">0</td></tr>
+      <tr><th>Precip prob</th><td class="precip_prob">0</td></tr>
+      <tr><th>Alerts</th><td class="alerts"></td></tr>
+    </table>
+    
+  </section>
+
+  <section class="section events">
+    <h2>Events</h2>
+    
+    <table>
+      <thead><tr><th>Time</th><th>Type</th><th>Title</th><th>Description</th><th>Channel</th><th>Tags</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="start_time_local">17:30</td>
+          <td class="event_type">football_final</td>
+          <td class="title">terrible Derby — Fort Jessikatown vs South Barry</td>
+          <td class="description">High-profile local derby match.</td>
+          <td class="channel_focus">delivery</td>
+          <td class="tags">football|derby|sports|prime</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </section>
+
 </body></html>

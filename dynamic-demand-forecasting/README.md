@@ -157,10 +157,10 @@ Good luck, and may the best forecaster win!
 
 [MongoDB NDJSON]: https://www.mongodb.com/docs/database-tools/mongoimport/#mongodb-binary-bin.mongoimport
 [playground website]: https://nexopizza.github.io/hack-n-slice-constantine-2025/
-[items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/items.ndjson-CbtgqfG0lUliYbnwmJCmC8pzpGkzfX.gz
-[options.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/options.ndjson-5TPjU4AO0PnOj5dlgzeR0NbTahpRAY.gz
-[order_items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/order_items.ndjson-QQYwJqJIfdr1uh3YE0dxnyOJdgYqvL.gz
-[orders.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/orders.ndjson-L3P2bizh2D8yeznW29Og8vzWgx4p4R.gz
-[restocks.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/restocks.ndjson-K9YIYdyZf4OXz2AoZyScZSfA7GV7MA.gz
-[stock_moves.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/stock_moves.ndjson-F1IGODrCZAk5PcaL8iB52QKOw9l5ua.gz
+[items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/items.ndjson-mUdL0RXYm2TMrbPkKC6QMylwl3ELcU.gz
+[options.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/options.ndjson-tL9odTf38OogRJ1WnMQXPUMAOBzleW.gz
+[order_items.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/order_items.ndjson-FFstMTL5hTHbSH3PmSOBxJJ0448xDS.gz
+[orders.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/orders.ndjson-imk5Hv1UzVVmC7dBuVKlcQITb1TEPC.gz
+[restocks.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/restocks.ndjson-NwdwaL61TWoJlK17k1GqQPFQqKVxss.gz
+[stock_moves.ndjson]: https://zot5wjpfseoymwgv.public.blob.vercel-storage.com/datasets/dynamic-demand-forecasting/stock_moves.ndjson-34wCXuWoW3diAOs0ovypJWzXVJhiNN.gz
 

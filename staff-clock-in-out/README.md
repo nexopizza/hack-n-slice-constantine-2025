@@ -1,18 +1,15 @@
 # ⏱️ Staff Clock-In & Out (Lite)
 
 ## 🎯 Project Objective
-A minimal time tracker for team members to clock in/out (with an optional single break) and compute basic daily/weekly hours, with a simple export for payroll.
+A minimal time tracker for team members to clock in/out and compute basic daily/weekly/monthly hours, with a simple export for payroll.
 
 ---
 
 ## 🧩 Minimal Features
 
 - Clock in and clock out
-- Optional: start/end one unpaid break per shift
-- See today’s status and totals (day/week)
-- Simple JSON export of total hours per employee and period for the payroll module
-
-Non‑goals (not included): approvals, audit logs, overtime rules, geofencing, device binding, offline mode, dashboards.
+- See today’s status and totals (day/week/month)
+- Send data to [payroll module](https://github.com/nexopizza/hack-n-slice-constantine-2025/tree/main/payroll-module)
 
 ---
 
@@ -21,10 +18,13 @@ Non‑goals (not included): approvals, audit logs, overtime rules, geofencing, d
 ### Punch Event
 ```json
 {
-  "employee_id": "emp_00123",
-  "action": "clock_in",
-  "timestamp": "2025-08-29T08:57:12Z"
-}
+    "employee_id":"E001",
+    "name":"Alice",
+    "date":"2025-08-25",
+    "clock_in":"09:00",
+    "clock_out":"18:00",
+    "total_hours":9.0
+},
 ```
 
 ### Daily Summary
@@ -44,9 +44,10 @@ Non‑goals (not included): approvals, audit logs, overtime rules, geofencing, d
 ### Payroll Export (very simple)
 ```json
 {
-  "period": { "start": "2025-08-18", "end": "2025-08-31" },
+  "period": { "start": "2025-08-01", "end": "2025-08-31" },
   "employees": [
-    { "employee_id": "emp_00123", "total_hours": 80.0 }
+    { "employee_id": "0001", "total_hours": 80.0 },
+    { "employee_id": "0002", "total_hoiurs": 56.30}
   ]
 }
 ```

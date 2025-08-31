@@ -1,26 +1,28 @@
 # 📈 Dynamic Demand Forecasting
 
-## 🎯 Project Objective
+
 Help the pizzeria manager anticipate busy hours and product demand to optimize staffing, prep, and inventory. Build forecasts that incorporate seasonality, weather, and local events, and extend them to account for stock-outs and waste.
 
 ---
 
-## 🧩 Functional Requirements
+## 🎯 Project Objective
+Design a machine learning–powered system that analyzes historical restaurant data—including order volumes, staffing configurations, and operational cycles—to forecast:
+- Orders volume (hourly/daily/weekly)
+- Ingredient usage
+- Staffing needs and wage optimization
+while dynamically adjusting predictions based on weather conditions, local events, national holidays, and calendar cycles (e.g. day of week, day of month, pay periods).
 
-### 1. 🔮 Forecast Targets (Stage 1)
-- Daily/hourly order volume and item demand
-- Peak hours and seasonal patterns (weekdays, holidays, Ramadan, summer, football)
-- Delivery vs pickup share over time
-- Derived needs: staffing, kitchen load, and ingredient usage
+---
 
-### 2. 🚨 Out-of-Stock Effects (Stage 2)
-- Model inventory restocks and ingredient consumption
-- Identify and correct for stock-outs/waste biasing observed demand
-- Recommend restocking quantities and timing; flag potential shortages
+## 🧠 Core Concept
+The system learns from the restaurant’s past to anticipate its future. It combines internal operational data with external contextual signals to generate actionable forecasts that optimize prep, staffing, and inventory.
 
-### 3. 🌦️ External Signals
-- Weather features (temperature, rain, alerts)
-- Local events (matches, holidays, specials) from the playground
+---
+
+## 📊 System Outputs
+• 	📈 Demand Forecasts: Predict customer flow by hour/day/week
+• 	🧂 Ingredient Planner: It could be simply the rate of increase / decrease in ingredient preparation comparing to the previous day
+• 	👥 Staffing Optimizer: Suggested team size and role mix per shift
 
 ---
 
@@ -146,7 +148,6 @@ date,split,y_true,y_pred
 2. Engineer calendar, weather, and event features; encode holidays and match schedules
 3. Train forecasting models (per-SKU or hierarchical): baseline (naive/ETS), ML (XGBoost), or probabilistic (Prophet/statsmodels)
 4. Validate with rolling-origin evaluation; tune by horizon and business metrics
-5. Stage 2: link consumption to ingredients via recipes; simulate stock levels; correct demand under stock-outs
 6. Generate actionable outputs: staffing recommendations, ingredient usage, restock plan, and peak-hour windows
 
 ---
@@ -159,17 +160,9 @@ mongoimport --db hack-n-slice-2025 --collection options      --file options.ndjs
 mongoimport --db hack-n-slice-2025 --collection orders       --file orders.ndjson
 mongoimport --db hack-n-slice-2025 --collection order_items  --file order_items.ndjson
 
-# Stage 2 only:
 mongoimport --db hack-n-slice-2025 --collection restocks     --file restocks.ndjson
 mongoimport --db hack-n-slice-2025 --collection stock_moves  --file stock_moves.ndjson
 ```
-
----
-
-## 📦 Deliverables
-
-- Stage 1: Forecasts (daily and/or per-item) plus a short write-up on how events and weather were incorporated
-- Stage 2: Stock-aware forecasts showing approach for stock-out correction and restock recommendations
 
 ---
 

@@ -43,32 +43,81 @@ Help the pizzeria manager anticipate busy hours and product demand to optimize s
 
 ### NDJSON — Items
 ```json
-{"_id":"68b35fc2868d406af5688772","name":"Pizza Margherita","category":"Pizzas","workflow":"PIZZA","basePrice":350,"hasSize":false,"hasToppings":true}
+{
+  "_id": "68b35fc2868d406af5688772",
+  "name": "Pizza Margherita",
+  "category": "Pizzas",
+  "workflow": "PIZZA",
+  "basePrice": 350,
+  "hasSize": false,
+  "hasToppings": true
+}
 ```
 
 ### NDJSON — Options
 ```json
-{"_id":"68b35fc2868d406af5688773","kind":"SAUCE","name":"Sauce Tomate","priceDelta":0,"itemScope":["68b35fc2868d406af5688772"]}
+{
+  "_id": "68b35fc2868d406af5688773",
+  "kind": "SAUCE",
+  "name": "Sauce Tomate",
+  "priceDelta": 0,
+  "itemScope": [
+    "68b35fc2868d406af5688772"
+  ]
+}
 ```
 
 ### NDJSON — Orders
 ```json
-{"_id":"68b35fc2868d406af5688c70","storeId":"68b35fc2868d406af5688771","source":"pos","status":"DELIVERED","createdAt":"2020-08-28T12:13:40.544Z"}
+{
+  "_id": "68b35fc2868d406af5688c70",
+  "storeId": "68b35fc2868d406af5688771",
+  "source": "pos",
+  "status": "DELIVERED",
+  "createdAt": "2020-08-28T12:13:40.544Z"
+}
 ```
 
 ### NDJSON — Order Items
 ```json
-{"_id":"68b35fc2868d406af5688c71","orderId":"68b35fc2868d406af5688c70","lineNo":1,"itemId":"68b35fc2868d406af5688902","qty":2,"unitPrice":600,"appliedOptions":["68b35fc2868d406af5688903","68b35fc2868d406af5688907"]}
+{
+  "_id": "68b35fc2868d406af5688c71",
+  "orderId": "68b35fc2868d406af5688c70",
+  "lineNo": 1,
+  "itemId": "68b35fc2868d406af5688902",
+  "qty": 2,
+  "unitPrice": 600,
+  "appliedOptions": [
+    "68b35fc2868d406af5688903",
+    "68b35fc2868d406af5688907"
+  ]
+}
 ```
 
 ### NDJSON — Restocks (Stage 2)
 ```json
-{"_id":"68b35fc2868d406af5688a94","stockItemId":"68b35fc2868d406af5688a26","storeId":"68b35fc2868d406af5688771","initialQty":11310,"unit":"ml","ttlSec":691200,"createdAt":"2025-08-08T02:26:50.191Z"}
+{
+  "_id": "68b35fc2868d406af5688a94",
+  "stockItemId": "68b35fc2868d406af5688a26",
+  "storeId": "68b35fc2868d406af5688771",
+  "initialQty": 11310,
+  "unit": "ml",
+  "ttlSec": 691200,
+  "createdAt": "2025-08-08T02:26:50.191Z"
+}
 ```
 
 ### NDJSON — Stock Moves (Stage 2)
 ```json
-{"_id":"68b35fc2868d406af5688c72","restockId":"68b35fc2868d406af5688a98","type":"issue","cause":"order-accepted","value":-46,"orderId":"68b35fc2868d406af5688c70","timestamp":"2020-08-28T12:13:40.544Z"}
+{
+  "_id": "68b35fc2868d406af5688c72",
+  "restockId": "68b35fc2868d406af5688a98",
+  "type": "issue",
+  "cause": "order-accepted",
+  "value": -46,
+  "orderId": "68b35fc2868d406af5688c70",
+  "timestamp": "2020-08-28T12:13:40.544Z"
+}
 ```
 
 ### CSV — Weather (daily)

@@ -45,6 +45,7 @@ Provide a simple, reliable timekeeping system for Nexo Pizza team members to clo
 
 ## 🛠️ Suggested Tech Stack
 
+- Language: [TypeScript] across frontend and backend
 - Frontend: [React v19], [React Router v7], [MUI v7]
 - Backend: [NestJS v11]
 - Database: [MongoDB] with [Mongoose]
@@ -158,3 +159,4 @@ Provide a simple, reliable timekeeping system for Nexo Pizza team members to clo
 [Vercel]: https://vercel.com/
 [Firebase]: https://firebase.google.com/
 [Sentry]: https://sentry.io/
+[TypeScript]: https://www.typescriptlang.org/

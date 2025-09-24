@@ -72,4 +72,3 @@ To make the **Delivery Man App** production-ready, the following tasks should be
 
 ---
 
-## Assets

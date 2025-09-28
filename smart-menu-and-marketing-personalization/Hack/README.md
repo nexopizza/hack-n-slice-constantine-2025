@@ -9,8 +9,8 @@ It uses Django for backend & admin management, PostgreSQL for persistence, and F
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/laufeyland/Hack.git
-cd Hack
+git clone https://github.com/nexopizza/hack-n-slice-constantine-2025.git
+cd hack-n-slice-constantine-2025/smart-menu-and-marketing-personalization/Hack
 ```
 
 ### 2. Create a Virtual Environment

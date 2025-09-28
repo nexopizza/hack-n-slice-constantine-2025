@@ -47,8 +47,6 @@ The AI suggests pizzas in the "For You" section based on:
 
 ---
 
-## 🚀 Getting Started
-
 ### Testing Account
 
 - **Username:** `test`
@@ -71,6 +69,7 @@ Start frontend:
 
 npm start
 
+---
 
 ⚠️ Without connecting to backend, menu grid won’t show real data. !!
 

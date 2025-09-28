@@ -86,10 +86,6 @@ npm start
 * Translations (`i18n.js`)
 * Demo visuals: cart, coins/rewards system
 
-**Contributors:**
-
-* **Lemma Dorsaf Rofia:** Category bar, menu grid, login form, user slide, translations, `App.jsx`, styles
-* **Ali Djerdi:** Navbar, card styling
 
 **Tech Stack:**
 

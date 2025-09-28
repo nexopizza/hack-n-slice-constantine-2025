@@ -1,7 +1,7 @@
 #  Smart Menu (Frontend Part)
 
 
-## Project Overview
+## Project :
 **Smart Menu** is a demo project showcasing an AI-powered pizza recommendation system.  
 The AI suggests pizzas in the "For You" section based on:
 
@@ -22,12 +22,12 @@ The AI suggests pizzas in the "For You" section based on:
 - **Translations:** Active for questionnaire using `i18n.js`
 - **Cart & Coins:** Demo visuals only
 
-### 🛠️ Frontend Contributions
+###  Frontend Contributions
 
 - **Lemma Dorsaf Rofia:** Category bar, menu grid, login form & user slide & translations, `App.jsx`, styles
 - **Ali Djerdi:** Navbar, card styling (not fully used due to dynamic content)
 
-### 💡 Ideas / Not Yet Implemented
+### Ideas / Not Yet Implemented/ it has the demo (not functional yet) 
 
 - Coins/reward system
 - Full AI integration with backend data
@@ -37,11 +37,11 @@ The AI suggests pizzas in the "For You" section based on:
 
 ---
 
-## 🏗 Tech Stack
+## Tech Stack
 
 - **React.js**
 - **TypeScript** (API calls)
-- **CSS & TailwindCSS** (minimal usage)
+- **CSS & TailwindCSS** (very minimal usage of tailwindcss)
 - **Axios**
 - **i18n.js** (translations)
 

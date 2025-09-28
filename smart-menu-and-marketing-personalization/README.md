@@ -1,47 +1,89 @@
-# 📈 Smart Menu and Personalized Marketing
+#  Smart Menu (Frontend Part)
 
-## 🎯 Objective
-Design a system that uses customer data and contextual signals to personalize the digital menu experience and marketing outreach. The goal is to recommend dishes based on each user’s preferences, habits, and budget.
 
----
+## Project Overview
+**Smart Menu** is a demo project showcasing an AI-powered pizza recommendation system.  
+The AI suggests pizzas in the "For You" section based on:
 
-## 🧠 Core Features to Implement
+- Customer past purchases & favorites
+- Optional allergy/preferences questionnaire
 
-### 1. Personalized Menu Display
-• 	Recommend dishes based on:
-• 	Past orders (e.g. favorite pizza types, repeat dessert)
-• 	Dietary preferences (vegetarian, chicken world, etc)
-• 	Time of day (e.g. lighter meals at lunch, indulgent options at night)
-• 	Budget sensitivity (e.g. show affordable options first)
-• 	Dynamic layout: reorder or highlight items based on relevance to the user
-
-### 2. Push Notifications & Smart Marketing
-• 	Notify users of:
-• 	New products tailored to their taste
-• 	Personalized promotions (e.g. “Your favorite pizza is 15% off today!”)
-• 	Seasonal or event-based specials (e.g. “It's too hot today, isnt it - try our new fresh lemon juce!”)
+>  Coins/reward system idea is als  included (as an idea only) to motivate users, but its demo-only in this version.:D !!
 
 ---
 
-## 📦 Data Sources
+##  Features
 
-| Source              | Purpose                                      |
-|---------------------|----------------------------------------------|
-| Order history       | Preferences, frequency, orders amounts       |
-| User profile        | Dietary tags, language, location             |
-| Time & context      | Day of week, time of day, holidays           |
-| Inventory & pricing | Ingredient availability, cost fluctuations   |
-| Engagement data     | Clicks, favorites, abandoned carts           |
+### What we Implemented:
+
+- **AI Demo:** Mocked recommendations in "For You" category
+- **Questionnaire Pop-up:** Empty questions in frontend; backend fills content
+- **Static Menu Demo:** Default to Veggie Pizza
+- **Translations:** Active for questionnaire using `i18n.js`
+- **Cart & Coins:** Demo visuals only
+
+### 🛠️ Frontend Contributions
+
+- **Lemma Dorsaf Rofia:** Category bar, menu grid, login form & user slide & translations, `App.jsx`, styles
+- **Ali Djerdi:** Navbar, card styling (not fully used due to dynamic content)
+
+### 💡 Ideas / Not Yet Implemented
+
+- Coins/reward system
+- Full AI integration with backend data
+- Questionnaire fully functional for allergies/preferences
+- Organized backend & dynamic menu content
+- Polished user account area & separate pages
 
 ---
 
-## 🛠️ Technical Scope
+## 🏗 Tech Stack
 
-- Machine Learning models for dish recommendation
-- Real-time analytics for menu intelligence
-- Dynamic UI rendering based on user profile
-- Push notification engine with personalization
+- **React.js**
+- **TypeScript** (API calls)
+- **CSS & TailwindCSS** (minimal usage)
+- **Axios**
+- **i18n.js** (translations)
 
 ---
-## 🚀 Outcome
-A fully personalized menu experience that feels intuitive. The customer should feel that we know him and understand his taste!
+
+## 🚀 Getting Started
+
+### Testing Account
+
+- **Username:** `test`
+- **Password:** `test`
+
+### Run the Demo
+
+1. Clone the repository.
+2. Install dependencies:
+
+```bash
+npm install
+ 
+Link and run backend (Django):
+
+python manage.py runserver
+
+
+Start frontend:
+
+npm start
+
+
+⚠️ Without connecting to backend, menu grid won’t show real data. !!
+
+!! Future Improvements :D
+
+Separate frontend pages for better UX
+
+Polished user account area
+
+Coins/reward system fully implemented
+
+Full AI integration
+
+Dynamic questionnaire & backend integration
+
+

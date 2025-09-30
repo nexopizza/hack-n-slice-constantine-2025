@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; /* logo left, others right */
+  align-items: center;
+}
+
+.logo-img {
+  height: 60px; /* adjust size */
+  width: auto;
+  display: block;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.coin-container {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6; /* light gray */
+  padding: 0.4rem 0.8rem;
+  border-radius: 9999px; /* pill shape */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.coin-icon {
+  width: 20px;
+  height: 20px;
+  color: #facc15; /* yellow-ish coin */
+  margin-right: 0.3rem;
+}
+
+.coin-number {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151; /* dark gray */
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color:rgb(239, 64, 0); /* light gray */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: white;
+}

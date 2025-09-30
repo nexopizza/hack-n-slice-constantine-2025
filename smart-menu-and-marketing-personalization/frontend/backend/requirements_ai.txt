@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+streamlit
+numpy==1.26.4
+Pillow
+python-dotenv
+uvicorn
+fastapi
+SQLAlchemy
